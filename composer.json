@@ -1,6 +1,6 @@
 {
-    "name": "cu-boulder/tiamat_upstream",
-    "description": "Install Tiamat with Composer on Pantheon.",
+    "name": "cu-boulder/sandpoint_upstream",
+    "description": "Install Sandpoint with Composer on Pantheon.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "repositories": [
@@ -19,8 +19,8 @@
     ],
     "require": {
         "composer/installers": "^2.1",
-        "cweagans/composer-patches": "^1.7",
-        "drush/drush": "^13",
+        "cweagans/composer-patches": "^2.0",
+        "drush/drush": "^14",
         "oomphinc/composer-installers-extender": "^2.0",
         "pantheon-systems/upstream-management": "^1.0",
         "pantheon-upstreams/upstream-configuration": "dev-main || dev-master"
@@ -38,13 +38,19 @@
     },
     "extra": {
         "patches": {
-            "drupal/core": {
-                "Add reusable option to inline block creation": "patches/add_reusable_option_to_inline_block_creation-drupal11-2.patch",
-                "Fix escape sanitization function": "patches/fix-type-error-null-text-3523317-21.patch"
-            }
-        },
-        "patchLevel": {
-            "drupal/core": "-p3"
+            "drupal/core": [
+                {
+                    "description": "Add Reusable Option to Inline Block Creation",
+                    "url": "patches/add_reusable_option_to_inline_block_creation-drupal11.3.3.patch",
+                    "depth": 1
+                }
+            ],
+            "pantheon-systems/upstream-management": [
+                {
+                    "description": "Fixes Fatal error: UpstreamRequireCommand::configure()",
+                    "url": "patches/pantheon-signature.patch"
+                }
+            ]
         },
         "drupal-scaffold": {
             "locations": {
@@ -112,6 +118,9 @@
             "pantheon-systems/upstream-management": true,
             "oomphinc/composer-installers-extender": true,
             "tbachert/spi": true
+        },
+        "audit": {
+            "ignore": ["PKSA-4s4z-t146-6123"]
         }
     },
     "scripts": {
