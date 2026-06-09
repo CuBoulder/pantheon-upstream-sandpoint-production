@@ -27,7 +27,7 @@
         "npm-asset/tippy.js": "6.3.7",
         "npm-asset/northernco--ckeditor5-anchor-drupal": "0.5.0",
         "composer/installers": "^2.1",
-        "cu-boulder/boulder_base": "20260527",
+        "cu-boulder/boulder_base": "20260603",
         "cu-boulder/boulder_profile": "20260513",
         "cu-boulder/express_admin": "dev-main",
         "cu-boulder/ucb_admin_menus": "dev-main",
@@ -104,6 +104,7 @@
         "drupal/twig_tweak": "^3.1",
         "drupal/unpublished_404": "^2.0",
         "drupal/webform": "^6.3@beta",
+        "drupal/webform_views": "^5.6",
         "pantheon-systems/drupal-integrations": "^11",
         "pantheon-systems/pantheon_domain_masking": "^2.1",
         "drupal/config_update": "^2.0@alpha"
