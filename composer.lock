@@ -812,16 +812,16 @@
         },
         {
             "name": "cu-boulder/boulder_base",
-            "version": "20260610",
+            "version": "20260708",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuBoulder/tiamat-theme.git",
-                "reference": "6ab698e65060020c1d426e0087a6c7b42c23a573"
+                "reference": "d40c2bf505c67cc1eb72d8adc0b54b2f57e59540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat-theme/zipball/6ab698e65060020c1d426e0087a6c7b42c23a573",
-                "reference": "6ab698e65060020c1d426e0087a6c7b42c23a573",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat-theme/zipball/d40c2bf505c67cc1eb72d8adc0b54b2f57e59540",
+                "reference": "d40c2bf505c67cc1eb72d8adc0b54b2f57e59540",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -832,9 +832,9 @@
             "description": "University of Colorado Boulder base theme",
             "support": {
                 "issues": "https://github.com/CuBoulder/tiamat-theme/issues",
-                "source": "https://github.com/CuBoulder/tiamat-theme/tree/20260610"
+                "source": "https://github.com/CuBoulder/tiamat-theme/tree/20260708"
             },
-            "time": "2026-06-10T18:30:55+00:00"
+            "time": "2026-07-08T15:24:41+00:00"
         },
         {
             "name": "cu-boulder/boulder_profile",
@@ -4300,26 +4300,26 @@
         },
         {
             "name": "drupal/layout_builder_iframe_modal",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_builder_iframe_modal.git",
-                "reference": "1.3.7"
+                "reference": "1.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_builder_iframe_modal-1.3.7.zip",
-                "reference": "1.3.7",
-                "shasum": "45a636baf3cf5d9324b51b3f979c7dbdc0e6b97a"
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_iframe_modal-1.3.8.zip",
+                "reference": "1.3.8",
+                "shasum": "c9a6d15a6c81bb2bdfd802a71d5f0dda8bc62366"
             },
             "require": {
-                "drupal/core": "^10.1.3 || ^11"
+                "drupal/core": "^10.1.3 || ^11 || ^12"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.3.7",
-                    "datestamp": "1756284869",
+                    "version": "1.3.8",
+                    "datestamp": "1783598896",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5976,17 +5976,17 @@
         },
         {
             "name": "drupal/trash",
-            "version": "3.0.28",
+            "version": "3.0.29",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/trash.git",
-                "reference": "3.0.28"
+                "reference": "3.0.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/trash-3.0.28.zip",
-                "reference": "3.0.28",
-                "shasum": "eb0a2423756ba28c83031e2706bd3e061753b274"
+                "url": "https://ftp.drupal.org/files/projects/trash-3.0.29.zip",
+                "reference": "3.0.29",
+                "shasum": "bd57e41e2f291322ad32cd67109b8637f4bea6a4"
             },
             "require": {
                 "drupal/core": "^10.3 | ^11"
@@ -6005,8 +6005,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.28",
-                    "datestamp": "1780674455",
+                    "version": "3.0.29",
+                    "datestamp": "1782977464",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6158,17 +6158,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.3.0-rc2",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.3.0-rc2"
+                "reference": "6.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.3.0-rc2.zip",
-                "reference": "6.3.0-rc2",
-                "shasum": "833904081e5eab7e8e36250fea3652c797ddfb28"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.3.0.zip",
+                "reference": "6.3.0",
+                "shasum": "67b09271edfd2fb38dc699ff733911ad500ae5d7"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11.0"
@@ -6213,11 +6213,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.3.0-rc2",
-                    "datestamp": "1782137794",
+                    "version": "6.3.0",
+                    "datestamp": "1783604819",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -6338,12 +6338,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "bd9ea2fe964f4e895e85205a34bed1c31bc77ca3"
+                "reference": "bf43524652c9f700930071edc2187dceed5176dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/bd9ea2fe964f4e895e85205a34bed1c31bc77ca3",
-                "reference": "bd9ea2fe964f4e895e85205a34bed1c31bc77ca3",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/bf43524652c9f700930071edc2187dceed5176dd",
+                "reference": "bf43524652c9f700930071edc2187dceed5176dd",
                 "shasum": ""
             },
             "require": {
@@ -6480,7 +6480,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-01T07:12:02+00:00"
+            "time": "2026-07-09T18:33:53+00:00"
         },
         {
             "name": "e0ipso/shaper",
@@ -6946,16 +6946,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "4360e982f87f5f258bf872d094647791db2f4c8e"
+                "reference": "9ad1e4fc607446a055b95870c7f668e93b5cff29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/4360e982f87f5f258bf872d094647791db2f4c8e",
-                "reference": "4360e982f87f5f258bf872d094647791db2f4c8e",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/9ad1e4fc607446a055b95870c7f668e93b5cff29",
+                "reference": "9ad1e4fc607446a055b95870c7f668e93b5cff29",
                 "shasum": ""
             },
             "require": {
@@ -7010,7 +7010,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.5.0"
+                "source": "https://github.com/guzzle/promises/tree/2.5.1"
             },
             "funding": [
                 {
@@ -7026,20 +7026,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-02T12:23:43+00:00"
+            "time": "2026-07-08T15:48:39+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.12.3",
+            "version": "2.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "7ec62dc3f44aa218487dbed81a9bf9bc647be55d"
+                "reference": "51e27f9e2b332ab3e72f4520d5ff4f3c68c3577c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/7ec62dc3f44aa218487dbed81a9bf9bc647be55d",
-                "reference": "7ec62dc3f44aa218487dbed81a9bf9bc647be55d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/51e27f9e2b332ab3e72f4520d5ff4f3c68c3577c",
+                "reference": "51e27f9e2b332ab3e72f4520d5ff4f3c68c3577c",
                 "shasum": ""
             },
             "require": {
@@ -7129,7 +7129,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.12.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.12.4"
             },
             "funding": [
                 {
@@ -7145,7 +7145,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-23T15:21:08+00:00"
+            "time": "2026-07-08T15:56:20+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -7796,20 +7796,19 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.7.0",
+            "version": "v5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82"
+                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dca41cd15c2ac9d055ad70dbfd011130757d1f82",
-                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
+                "reference": "044a6a392ff8ad0d61f14370a5fbbd0a0107152f",
                 "shasum": ""
             },
             "require": {
-                "ext-ctype": "*",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "php": ">=7.4"
@@ -7848,9 +7847,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.7.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.8.0"
             },
-            "time": "2025-12-06T11:56:16+00:00"
+            "time": "2026-07-04T14:30:18+00:00"
         },
         {
             "name": "npm-asset/codemirror",
@@ -8277,7 +8276,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration/locked",
-                "reference": "5f2a9dff759dd7a14fd71af14b73b0690df5eeef"
+                "reference": "5011dffc51e0bf78c47637e1a9399e92bb9dc1ec"
             },
             "require": {
                 "asm89/stack-cors": "v2.3.0",
@@ -8285,7 +8284,7 @@
                 "caxy/php-htmldiff": "v0.1.17",
                 "composer/installers": "v2.3.0",
                 "composer/semver": "3.4.4",
-                "cu-boulder/boulder_base": "20260610",
+                "cu-boulder/boulder_base": "20260708",
                 "cu-boulder/boulder_profile": "20260701",
                 "cu-boulder/ckeditor5_bootstrap_accordion": "dev-main",
                 "cu-boulder/ckeditor5_icons": "dev-main",
@@ -8347,7 +8346,7 @@
                 "drupal/jsonapi_extras": "3.28.0",
                 "drupal/klaro": "3.1.1",
                 "drupal/klaro_js": "3.1.0",
-                "drupal/layout_builder_iframe_modal": "1.3.7",
+                "drupal/layout_builder_iframe_modal": "1.3.8",
                 "drupal/linkit": "7.0.16",
                 "drupal/meaofd": "1.2.0",
                 "drupal/media_alias_display": "2.1.1",
@@ -8373,18 +8372,18 @@
                 "drupal/simple_sitemap": "4.2.3",
                 "drupal/smtp": "1.4.0",
                 "drupal/token": "1.17.0",
-                "drupal/trash": "3.0.28",
+                "drupal/trash": "3.0.29",
                 "drupal/twig_tweak": "3.4.2",
                 "drupal/unpublished_404": "2.0.3",
-                "drupal/webform": "6.3.0-rc2",
+                "drupal/webform": "6.3.0",
                 "drupal/webform_views": "5.6.0",
                 "e0ipso/shaper": "1.2.7",
                 "egulias/email-validator": "4.0.4",
                 "ezyang/htmlpurifier": "v4.19.0",
                 "google/recaptcha": "1.3.1",
                 "guzzlehttp/guzzle": "7.12.3",
-                "guzzlehttp/promises": "2.5.0",
-                "guzzlehttp/psr7": "2.12.3",
+                "guzzlehttp/promises": "2.5.1",
+                "guzzlehttp/psr7": "2.12.4",
                 "justinrainbow/json-schema": "6.10.0",
                 "laminas/laminas-escaper": "2.18.0",
                 "laminas/laminas-feed": "2.26.1",
