@@ -133,7 +133,7 @@
             "wikimedia/composer-merge-plugin": true
         },
         "audit": {
-            "ignore": ["PKSA-4s4z-t146-6123"],
+            "ignore": ["SA-CONTRIB-2026-335"],
             "block-insecure": false
         }
     },
